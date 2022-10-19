@@ -4,7 +4,7 @@ public class Main {
         int DaysWithMinWeightLoss = TotalWeight / 250;
         int DaysWithMaxWeightLoss = TotalWeight / 500;
         int AverageDaysToLoseWeight = (DaysWithMinWeightLoss + DaysWithMaxWeightLoss) / 2;
-        System.out.println("Спортсмен потратит " + DaysWithMinWeightLoss + " дней с потерей веса 250 граммов в сутки; " + DaysWithMaxWeightLoss + " дней с потерей веса 500 граммов в сутки. В среднем у него уйдет " + AverageDaysToLoseWeight + " дней.");
+        System.out.println("Спортсмен потратит " + DaysWithMinWeightLoss + " дней с потерей веса 250 граммов в сутки; " + DaysWithMaxWeightLoss + " дней с потерей веса 500 граммов в сутки. В среднем у него уйдет " + AverageDaysToLoseWeight + " день.");
     }
 
 }

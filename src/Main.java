@@ -1,17 +1,12 @@
 public class Main {
     public static void main(String[] args){
-        int  i = 1000;
-        byte  b = 100;
-        short s = 30000;
-        long l = 1000000;
-        float f = 1.01f;
-        double d = 1.01;
-        System.out.println("Int " + i);
-        System.out.println("Byte " + b);
-        System.out.println("Short " + s);
-        System.out.println("Long " + l);
-        System.out.println("Float " + f);
-        System.out.println("Double " + d);
+        int NumberOfStudentsLP = 23;
+        int NumberOfStudentsAS = 27;
+        int NumberOfStudentsEA = 30;
+        int TotalSheetsOfPaper = 480;
+        int SheetsOfPaperPerStudent = 480 / (NumberOfStudentsLP + NumberOfStudentsAS + NumberOfStudentsEA);
+        System.out.println("На каждого ученика рассчитано " + SheetsOfPaperPerStudent + " листов бумаги");
+
 
     }
 

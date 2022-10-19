@@ -1,17 +1,15 @@
 public class Main {
     public static void main(String[] args){
-        int  i = 1000;
-        byte  b = 100;
-        short s = 30000;
-        long l = 1000000;
-        float f = 1.01f;
-        double d = 1.01;
-        System.out.println("Int " + i);
-        System.out.println("Byte " + b);
-        System.out.println("Short " + s);
-        System.out.println("Long " + l);
-        System.out.println("Float " + f);
-        System.out.println("Double " + d);
+        int BottlesPer2Minutes = 16;
+        int BottlesPer20Minutes = BottlesPer2Minutes * 10;
+        int BottlesPerDay = BottlesPer20Minutes * 3 * 24;
+        int BottlesPer3Days = BottlesPerDay * 3;
+        int BottlesPer30Days = BottlesPer3Days * 10;
+        System.out.println("За 20 минут машина произвела " + BottlesPer20Minutes + "  бутылок");
+        System.out.println("За 1 день машина произвела " + BottlesPerDay + " бутылок");
+        System.out.println("За 3 дня машинна произвела " + BottlesPer3Days + " бутылок");
+        System.out.println("За месяц машина произвела " + BottlesPer30Days + " бутылок");
+
 
     }
 

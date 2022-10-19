@@ -1,17 +1,23 @@
 public class Main {
     public static void main(String[] args){
-        int  i = 1000;
-        byte  b = 100;
-        short s = 30000;
-        long l = 1000000;
-        float f = 1.01f;
-        double d = 1.01;
-        System.out.println("Int " + i);
-        System.out.println("Byte " + b);
-        System.out.println("Short " + s);
-        System.out.println("Long " + l);
-        System.out.println("Float " + f);
-        System.out.println("Double " + d);
+        int Masha = 67760;
+        int Denis = 83690;
+        int Kristina = 76230;
+        double MashaD = Masha * 0.1 + Masha;
+        double DenisD = Denis * 0.1 + Denis;
+        double KristinaD = Kristina * 0.1 + Kristina;
+        int MashaY = Masha * 12;
+        int DenisY = Denis * 12;
+        int KristinaY = Kristina * 12;
+        double MashaDY = MashaD * 12;
+        double DenisDY = DenisD * 12;
+        double KristinaDY = KristinaD * 12;
+        double MashaPlus = MashaDY - MashaY;
+        double DenisPlus = DenisDY - DenisY;
+        double KristinaPlus = KristinaDY - KristinaY;
+        System.out.println("Маша теперь получает " + MashaD + " рублей. Годовой доход вырос на "+ MashaPlus + " рублей");
+        System.out.println("Денис теперь получает " + DenisD + " рублей. Годовой доход вырос на "+ DenisPlus + " рублей");
+        System.out.println("Кристина теперь получает " + KristinaD + " рублей. Годовой доход вырос на "+ KristinaPlus + " рублей");
 
     }
 

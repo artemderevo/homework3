@@ -1,17 +1,14 @@
 public class Main {
     public static void main(String[] args){
-        int  i = 1000;
-        byte  b = 100;
-        short s = 30000;
-        long l = 1000000;
-        float f = 1.01f;
-        double d = 1.01;
-        System.out.println("Int " + i);
-        System.out.println("Byte " + b);
-        System.out.println("Short " + s);
-        System.out.println("Long " + l);
-        System.out.println("Float " + f);
-        System.out.println("Double " + d);
+        int TotalCans = 120;
+        int WhiteCansPerClass = 2;
+        int BrownCansPerClass = 4;
+        int CansPerClass = WhiteCansPerClass + BrownCansPerClass;
+        int TotalClasses = TotalCans / CansPerClass;
+        int TotalWhiteCans = TotalClasses * WhiteCansPerClass;
+        int TotalBrownCans = TotalClasses * BrownCansPerClass;
+        System.out.println("В школе, где " + TotalClasses + " классов, нужно " + TotalWhiteCans + " банок белой краски и " + TotalBrownCans + " банок коричневой краски");
+
 
     }
 

@@ -1,17 +1,25 @@
 public class Main {
     public static void main(String[] args){
-        int  i = 1000;
-        byte  b = 100;
-        short s = 30000;
-        long l = 1000000;
-        float f = 1.01f;
-        double d = 1.01;
-        System.out.println("Int " + i);
-        System.out.println("Byte " + b);
-        System.out.println("Short " + s);
-        System.out.println("Long " + l);
-        System.out.println("Float " + f);
-        System.out.println("Double " + d);
+        int  FifthNumber = 569;
+        byte  ThirdNumber = 2;
+        short FourthNumber = 787;
+        float SecondNumber = 987678965549F;
+        boolean False = FifthNumber > FourthNumber;
+        double FirstNumber = 27.12;
+        short SixthNumber = -159;
+        long SeventhNumber = 27897;
+        byte EightNumber = 67;
+        System.out.println(FirstNumber);
+        System.out.println(SecondNumber);
+        System.out.println(ThirdNumber);
+        System.out.println(FourthNumber);
+        System.out.println(FifthNumber);
+        System.out.println(SixthNumber);
+        System.out.println(SeventhNumber);
+        System.out.println(EightNumber);
+        System.out.println(False);
+
+
 
     }
 

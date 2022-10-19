@@ -1,17 +1,12 @@
 public class Main {
     public static void main(String[] args){
-        int  i = 1000;
-        byte  b = 100;
-        short s = 30000;
-        long l = 1000000;
-        float f = 1.01f;
-        double d = 1.01;
-        System.out.println("Int " + i);
-        System.out.println("Byte " + b);
-        System.out.println("Short " + s);
-        System.out.println("Long " + l);
-        System.out.println("Float " + f);
-        System.out.println("Double " + d);
+        int Banana = 5 * 80;
+        int Milk = 105 * 2;
+        int IceCream = 100 * 2;
+        int Eggs = 4 * 70;
+        int BreakfastWeightInG = Banana + Milk + IceCream + Eggs;
+        double BreakfastWeightInKG = BreakfastWeightInG / 1000;
+        System.out.println("Вес спортивного завтрака " + BreakfastWeightInG + " в граммах, " + BreakfastWeightInKG + " в килограммах");
 
     }
 

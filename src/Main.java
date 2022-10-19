@@ -1,18 +1,10 @@
 public class Main {
     public static void main(String[] args){
-        int  i = 1000;
-        byte  b = 100;
-        short s = 30000;
-        long l = 1000000;
-        float f = 1.01f;
-        double d = 1.01;
-        System.out.println("Int " + i);
-        System.out.println("Byte " + b);
-        System.out.println("Short " + s);
-        System.out.println("Long " + l);
-        System.out.println("Float " + f);
-        System.out.println("Double " + d);
-
+        int TotalWeight = 7 * 1000;
+        int DaysWithMinWeightLoss = TotalWeight / 250;
+        int DaysWithMaxWeightLoss = TotalWeight / 500;
+        int AverageDaysToLoseWeight = (DaysWithMinWeightLoss + DaysWithMaxWeightLoss) / 2;
+        System.out.println("Спортсмен потратит " + DaysWithMinWeightLoss + " дней с потерей веса 250 граммов в сутки; " + DaysWithMaxWeightLoss + " дней с потерей веса 500 граммов в сутки. В среднем у него уйдет " + AverageDaysToLoseWeight + " день.");
     }
 
 }
